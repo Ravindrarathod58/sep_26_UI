@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* selector */
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        height: 300px;
+        border: 1px solid;
+        text-align: center;
+      }
+      .sp {
+        border: 1px solid;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+
+        web
+            application ( html css js , java(servlets, spring) )
+
+
+
+        Links and images
+    
+        a -> anchor tag
+
+        URL -> Uniform resource locator
+            combination of protocol domain name resource name
+        
+            https:// domainname.com/index.html
+        
+        1. absolute
+            static URL (https://google.com)
+            protocol domain name
+        2. relative
+            ./ -> current folder
+            ../ -> one folder back
+            ../../
+            
+
+
+        1. internal linking
+            linking the pages or resources availble on the project folder
+        2. external linking
+            linking the resources from external websites
+
+
+
+        href -> hyperlink reference
+
+        link states
+            unvisited -> blue color
+            active -> red
+            visited -> purple
+
+        Images 
+
+            <img src=""> 
+            alt="" -> attribute (alternative text) 
+                    when image is not loaded
+
+
+        list & container
+        ordered list 
+            1
+
+        <ol>
+            <li> </li>
+        </ol>
+        unordered list 
+            bullet
+        <ul>
+            <li> </li>
+        <ul>
+
+            type 
+                defines the type of list 
+                ol
+                  capital alpha
+                  small alpha
+                  roman numbers  i I
+
+                Ul
+                    circle
+                    square
+                    bullet
+            
+            start
+                starting point
+
+        container
+            container elements are used to group multiple elements
+
+        Card -> CSS
+
+        Entities
+            entities are the special character that are not available on the keyboards
+
+            rs
+            start
+            bullet
+
+        inline
+            style attribute
+        internal
+            style tag
+        external
+             by creating .css file
+
+    -->
+    <a href="./about.html"> about </a>
+    <a href="sdfsd">URl</a>
+    <a href="https://www.google.com"> visit google</a>
+    <img src="../image.png" alt="" height="" width="" />
+
+    <!-- ordered list -->
+    <ol type="i">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ol>
+    <ul type="square">
+      <li>Item 1</li>
+      <li>item 2</li>
+    </ul>
+
+    <div class="card">
+      <img src="./image.png" alt="" />
+      <span>Dell</span>
+      <span>Dell 15 AI powered</span>
+      <span style="color: orangered">
+        &starf; &starf; &starf; &starf; &star;
+      </span>
+      <span>
+        <sup> &#8377; </sup>
+        83,990
+      </span>
+    </div>
+
+    <span class="sp">This is span</span>
+  </body>
+</html>
