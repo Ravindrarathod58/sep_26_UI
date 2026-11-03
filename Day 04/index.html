@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .color {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+
+        Tables in HTML
+            tables are used to manage or display the data in the form of rows and column
+
+        row   -> represents the collection of columns
+        column -> columns represents the data ( attributes )
+        cell  -> it holds the actual data
+
+
+        how to create tables in HTML?   
+            <table> 
+                <thead> 
+                    table headings
+
+                    <th> </th> -> we can add the headings for the columns
+
+                </thead>
+                <tbody> 
+                    table data 
+
+                    <td> </td> -> we can add the data into tables using td
+
+                </tbody>
+                <tfoot> 
+                    addition information
+
+                    th / td
+                </tfoot>
+            </table>
+
+        attributes
+            border -> adds the border to the table
+            cellpadding -> adds the space inside the cell
+            cellspacing -> adds the space between the cells
+            rowspan   -> merge the two or more rows
+            colspan     -> merge the two or more column
+
+        CSS -> tables are used to create the layouts
+
+        header
+        navigation
+        main content
+        footer 
+
+    HTML attributes
+            Attributes are the extra information provided for the element
+
+            1. Global Attribute
+                these attributes can be used with all the HTML elements
+                id   -> unique identifier to the element ( javascript , css)
+                class -> to create the group of elements for styling
+                title -> short forms only visible when we take pointer on the element
+
+            2. Element specific attributes
+                it can be only applied to the specific elements
+                href -> hyperlink reference ( anchor tag , link)
+                src -> source (img, script, audio, video, iframe)
+                type -> input fields 
+
+            3. Event attributes
+                Event attributes are used to perform the actions on the elements 
+                event attributes are used to add the interactions between user and webpage
+
+                onclick -> when the user clicks on the elments
+                onchange
+                onsubmit
+
+            4. Boolean attributes
+                boolean attributes does not have any values
+                if added to the element then they becomes true
+
+                input -> required
+                
+    -->
+
+    <!-- 
+    students data 
+    name mobile course fees
+    -->
+    <h1 title="Hypertext markup language">HTML</h1>
+    <p class="color">this is paragraph</p>
+    <span class="color">this is span</span>
+
+    <input type="text" required />
+
+    <button onclick="alert('Hello')">click me</button>
+
+    <table border="1" cellpadding="20" cellspacing="0">
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <!-- <th>lastname</th> -->
+          <th>mobile</th>
+          <th>course</th>
+          <th>fees</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ravindra</td>
+          <td>Rathod</td>
+          <td>1234567</td>
+          <td rowspan="2">Java</td>
+          <td>1234</td>
+        </tr>
+        <tr>
+          <td>Namdev</td>
+          <td>XYZ</td>
+          <td>1234567</td>
+
+          <td>1234</td>
+        </tr>
+        <tr>
+          <td>Rohit</td>
+          <td>XYZ</td>
+          <td>12334323</td>
+          <td>Python</td>
+          <td>1345</td>
+        </tr>
+      </tbody>
+      <!-- <tfoot>
+        
+      </tfoot> -->
+    </table>
+  </body>
+</html>
