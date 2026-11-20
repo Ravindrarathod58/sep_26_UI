@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+            client -> server
+
+            leetcode     
+
+    -->
+
+    <!-- Event attributes -->
+    <!-- <button onclick="alert('welcome to my webpage')">Click</button> -->
+    <!-- welcome to my webpage -->
+
+    <form action="" method="get">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username" />
+      <input type="number" min="100" max="200" />
+      <!-- min max -->
+      <input type="url" />
+      <input type="tel" />
+      <!-- Mobile numbers -->
+      <input type="search" />
+      <!-- search bar (datalist) -->
+      <input type="password" />
+
+      <input type="color" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="week" />
+      <!-- <input type="year" /> -->
+
+      <!-- Radios & checkbox -->
+      <div>
+        <!-- Gender ( 3 male female other) -->
+        <label for="">
+          <input type="radio" name="gender" value="male" />
+          Male
+        </label>
+        <label for="">
+          <input type="radio" name="gender" value="female" />
+          Female
+        </label>
+        <label for="">
+          <input type="radio" name="gender" value="other" />
+          Other
+        </label>
+
+        <span>Hobbies</span>
+        <label for="">
+          <input type="checkbox" name="hobby" />
+        </label>
+        <label for="">
+          <input type="checkbox" name="hobby" />
+        </label>
+        <label for="">
+          <input type="checkbox" name="hobby" />
+        </label>
+      </div>
+      <button>Submit</button>
+      <input type="submit" />
+    </form>
+
+    <!--  -->
+    <!-- 
+    http://127.0.0.1:5500/Day%2005/index.html?
+        Query Parameter 
+
+        http://127.0.0.1:5500/Day%2005/index.html?username=sddcsdc
+    -->
+
+    <form action="" method="post" enctype="multipart/form-data">
+      <input
+        type="text"
+        name="username"
+        placeholder="Enter username"
+        required
+      />
+
+      <input type="file" />
+
+      <textarea name="" id=""></textarea>
+
+      <!-- dropdown -->
+      <select name="options" id="">
+        <option value="">Option A</option>
+        <option value="Option B">Option B</option>
+        <option value="">Option C</option>
+        <option value="">Option D</option>
+        <option value="">Option E</option>
+      </select>
+
+      <input type="search" list="options" />
+      <datalist id="options">
+        <option value="Option A"></option>
+        <option value="Option B"></option>
+        <option value="Option C"></option>
+        <option value="Option D"></option>
+        <option value="Option E"></option>
+      </datalist>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
