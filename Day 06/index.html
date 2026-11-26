@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    
+        Multimedia Tags in HTML & semantic tags
+
+
+        multimedia tags are used to add the audio video and inline frames
+        in webpage 
+
+        <audio>
+        <video>
+        <iframe>
+
+        iframe
+            -> third party web site
+            -> youtube
+            -> maps 
+
+        src -> source
+        controls
+
+        poster -> thumbail
+        autoplay -> video plays
+
+
+        -> webapage
+
+
+        semantic  tags
+            semantic tags are having the special meaning used to structure the page
+            semantic tags helps to enhance the SEO of the webpage
+
+        
+        Header
+                -> header <header> </header>
+        footer 
+                -> <footer> </footer>
+        main
+        nav
+        article
+        aside
+        h1 - h6
+        p
+
+
+    ---------------------HTML----------------------
+
+    introduction to CSS
+     -> HTML used to structure the webpages
+     -> CSS -> is used to style the webpages
+
+     CSS ways 
+            1. Inline CSS
+                using the style attribute
+            2. Internal CSS
+                We can use the style tag inside the head section
+            3. External CSS
+                first we have to create the .css file
+                using link tag add the CSS file to the HTML
+
+        Target
+            when we have to style the perticular element
+            then we have to use the Selectors
+
+        property
+            combination of the key and value pairs that styles the element
+
+        syntax
+
+        selector{
+        
+            key : value
+            color : red
+        }
+
+    
+    selectors
+       selectors are used to target the elements on the webpage
+       id -> uniquely targets the element
+            # -> represents the id attribute in the css
+        class -> Group of elements 
+            . -> represents the class selector
+    decendant selector
+            -> styles the immediate childs of the parent container
+
+    adjacent
+
+    attribute selector
+        
+    pseudo class
+            -> if we have to target the element state
+            :: -> 
+    pseudo element
+            : -> 
+
+
+    properties
+    colors & backgrounds
+    colors 
+        3 -> Red, green and blue
+           -> color wheel -> 0 - 255
+                            transparent , opaque
+    text - color
+            color : 
+            keywords -> red blue green violet
+            RGB -> function takes the range of the colors
+            RGBA
+            hexadecimal -> # color codes ( 6digit 3digit)
+    background
+            color
+                background-color : value
+            image
+                background-image :  url();
+                background-repeat : repeat / no-repeat
+                background-size : cover / contain / value (0% 100%)
+                background-position : center
+                background-attachment : fixed / scroll
+                backdrop-filter : blur() , brightness, vignette, contrast, sharpness
+                object-fit : 
+                positions : top, left, right, bottom (top left top right)
+            gradient
+                combination of color
+                background-image : 
+                    radial
+                        circle
+                    linear
+                        left-right
+
+        Units & typography
+
+    -->
+
+    <audio src="" controls></audio>
+    <video src="" controls poster="" autoplay></video>
+    <iframe src="about.html" frameborder="0"></iframe>
+    <!-- 
+            Youtube
+
+    
+    -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/wpMlICmEZe8?si=B03elFviB-akD6GZ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <!-- 
+            Maps
+
+            loading -> 
+    -->
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.0541425284255!2d73.80017837474907!3d18.481206582604596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfeb853d4691%3A0x56f1a2e46627167!2sGiri's%20TECH%20HUB%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1795662729065!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+
+    <!-- <div></div>
+    <span></span>
+
+    <header></header>
+    <nav></nav> -->
+  </body>
+</html>

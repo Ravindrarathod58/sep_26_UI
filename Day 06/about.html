@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        /* background-image: url(image.png); */
+        background-size: 100% 100%;
+        /* background-attachment: fixed; */
+      }
+      #second {
+        /* color: rgb(255, 122, 40, 1); */
+        /* color: #fa0; */
+        /* box-shadow: 1px 1px 5px; */
+        /* background-color: transparent;
+        backdrop-filter: blur(20px); */
+        /* background-image: radial-gradient(red, green);
+        height: 50vh; */
+      }
+      .second {
+        color: blue;
+      }
+      .first {
+        color: red;
+      }
+      .div_2 {
+        border: 1px solid;
+        /* color: aqua; */
+        background-image: url(image.png);
+        height: 400px;
+        background-repeat: no-repeat;
+        /* background-size: 100% 100%; */
+        /* background-position: left center; */
+      }
+
+      input[type="text"] {
+        border: 1px solid red;
+      }
+      .pseudo::first-letter {
+        color: red;
+      }
+      .pseudo:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline CSS -->
+    <h1 style="color: red">About</h1>
+    <div>This is Div</div>
+    <div id="second">This is second Div</div>
+    <p class="second">This is paragraph</p>
+
+    <p class="second">this is paragraph 1</p>
+    <p class="first">this is paragraph 2</p>
+    <p class="first">this is paragraph 3</p>
+    <p class="first">this is paragraph 4</p>
+
+    <div class="div_2">
+      <p class="pseudo">Pragraph inside the div</p>
+    </div>
+
+    <input type="text" />
+    <input type="password" />
+  </body>
+</html>
